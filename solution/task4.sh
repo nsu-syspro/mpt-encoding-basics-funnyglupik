@@ -2,4 +2,4 @@
 
 # Вывести дату в формате:
 #   Freitag, 13. Oktober 2023
-LC_ALL=de_DE.UTF8 date '+%A, %d. %B %Y' -d "$0"
+LC_ALL=de_DE.UTF8 date '+%A, %d. %B %Y' -d "$@"
